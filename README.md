@@ -1,7 +1,8 @@
 ## curso-platzi-react-avanzado ⚛️
 
-**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev
+Hooks principales
 
-**¡Sígueme en Twitch para streams sobre desarrollo web!** 👉 https://www.twitch.tv/midudev
+useState: para añadir un estado local al componente
+useEffect: ejecutar una funcion cada vez que rendericemos un compoenente
+useContext: permite acceder al context para obtener valores de manera global sin necesidad de pasarlo por props
 
-Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)

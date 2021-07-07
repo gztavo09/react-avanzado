@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { App } from './App'
 
 const content = document.getElementById("app")
-ReactDOM.render(<p>Holinoli</p>, content)
+ReactDOM.render(<App />, content)

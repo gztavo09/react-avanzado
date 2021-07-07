@@ -23,6 +23,7 @@
     "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
     "devDependencies": {
         "@babel/core": "^7.14.6",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
         "@babel/preset-env": "^7.14.7",
         "@babel/preset-react": "^7.14.5",
         "babel-loader": "^8.2.2",
@@ -34,8 +35,14 @@
         "wepack-cli": "0.0.1-security"
     },
     "dependencies": {
+        "apollo-boost": "^0.4.9",
+        "graphql": "^15.5.1",
+        "intersection-observer": "^0.12.0",
         "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "react-apollo": "^3.1.5",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.2.0",
+        "styled-components": "^5.3.0"
     },
     "standard": {
         "ignore": [
@@ -43,6 +50,9 @@
         ]
     },
     "eslintConfig": {
-        "extends": ["./node_modules/standard/eslintrc.json"]
+        "parser": "babel-eslint",
+        "extends": [
+            "./node_modules/standard/eslintrc.json"
+        ]
     }
 }
